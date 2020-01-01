@@ -1,0 +1,11 @@
+number: 180
+date: 1st of December 2020
+title: Hello! This is a title example
+articles:
+    - {text: "Google", description: "Google", link: "https://www.google.com/intl/en/about/"}
+    - {text: "Google", description: "Google", link: "https://www.google.com/intl/en/about/"}
+sponsored:
+    {text: "Google", description: "Google", link: "https://www.google.com/intl/en/about/"}
+android:
+    - {text: "Google", description: "Google", link: "https://www.google.com/intl/en/about/"}
+    - {text: "Google", description: "Google", link: "https://www.google.com/intl/en/about/"}
