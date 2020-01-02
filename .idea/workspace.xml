@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a3b5d8f-b1c2-465f-9c2a-626e0e3aedb1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinweekly/model/Colors.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/GenScriptKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/GenScriptKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/kotlinweekly/model/Issue$$serializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/kotlinweekly/model/Issue$$serializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/kotlinweekly/model/Issue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/kotlinweekly/model/Issue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/kotlinweekly/model/Item$$serializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/kotlinweekly/model/Item$$serializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/kotlinweekly/model/Item$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/kotlinweekly/model/Item$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/kotlinweekly/model/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/kotlinweekly/model/Item.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/GenScript.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/GenScript.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/kotlinweekly/model/Issue.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinweekly/model/Issue.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample.yaml" afterDir="false" />
@@ -87,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577862927249</updated>
       <workItem from="1577862929298" duration="8659000" />
-      <workItem from="1577879942478" duration="4834000" />
+      <workItem from="1577879942478" duration="5799000" />
     </task>
     <servers />
   </component>
