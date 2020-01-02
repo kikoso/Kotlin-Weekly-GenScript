@@ -99,7 +99,7 @@ fun createAndroid(articles: List<Item>): String {
             "    width:30%;\n" +
             "    float:left\">\n" +
             "<p style=\"text-align: center;\"><br />\n" +
-            "<img data-file-id=\"2573205\" height=\"65\" src=\"https://gallery.mailchimp.com/f39692e245b94f7fb693b6d82/images/d6dd1767-fc87-4f29-8899-ab4caae6903d.png\" style=\"border: 0px initial ; width: 65px; height: 65px; margin: 0px;\" width=\"65\" /><br />\n" +
+            "<img data-file-id=\"2573205\" height=\"65\" src=\"https://gallery.mailchimp.com/f39692e245b94f7fb693b6d82/images/57e35131-d16d-4d0c-a6a6-ff0c005d0c16.png\" style=\"border: 0px initial ; width: 65px; height: 65px; margin: 0px;\" width=\"65\" /><br />\n" +
             "<strong><span style=\"font-size:11px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><span style=\"color:#FFFFFF\"><span style=\"background-color:#79c5b4; padding:5px 5px 5px 5px\">Android</span></span></span></span></strong></p>\n" +
             "</div>"
     html += "<div style=\"  \n" +

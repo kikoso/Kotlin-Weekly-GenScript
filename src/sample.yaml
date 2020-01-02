@@ -3,6 +3,7 @@ date: 1st of December 2020
 title: Hello Kotliners! That time has arrived, next week the KotlinConf will happen. Do you have any bets for the announcements? Remember that there will be a Livestream, if you want to check it out. Enjoy the upcoming 7 days.
 announcements:
     - {text: "Kotlin 1.3.61 Released", description: "Just before the KotlinConf, Kotlin 1.3.61 has been released. It includes some bug fixing for Kotlin 1.3.60 and some minor improvements as well. Check out here the full changelog.", link: "https://blog.jetbrains.com/kotlin/2019/11/kotlin-1-3-60-released/"}
+    - {text: "What to Expect in Kotlin 1.4 and Beyond", description: "During the keynote at KotlinConf, Andrey Breslav highlighted the strategic view of JetBrains on the current areas of focus for the evolution of Kotlin, and the plans for Kotlin 1.4 which will be released sometime next year. There are so many things to tell about this, so the best thing you can do is to take a look at the keynote.", link: "https://blog.jetbrains.com/kotlin/2019/12/what-to-expect-in-kotlin-1-4-and-beyond/"}
 articles:
     - {text: "Adopting a Cross Platform Strategy for Mobile Apps", description: "VMWare has been exploring a strategy to be used in their cross platform strategy. Their first choice was Kotlin Multiplatform. Check out in this article what they found.", link: "https://medium.com/vmware-end-user-computing/adopting-a-cross-platform-strategy-for-mobile-apps-59495ffa23b0"}
     - {text: "Maintaining crisp code with type aliases", description: "Kotlin has a nifty little feature to help us keep our code tidy, the type aliasing. We can use it to harness the functionality with the keyword typealias. Check out in this article how to properly use it.", link: "https://okkotlin.com/typealias/"}
@@ -10,19 +11,18 @@ sponsored:
     {text: "$99/year Video Subscriptions and more at raywenderlich", description: "Level up your Android development skills with massive Black Friday savings! From November 25th to December 2nd, you can grab a full year’s subscription to 3,000+ video tutorials at raywenderlich for just $99/year — that’s a savings of over $140! And with book bundles starting at just $99.97, the best investment you can make in your development career is waiting for you at raywenderlich", link: "https://store.raywenderlich.com/"}
 android:
     - {text: "Lessons learnt using Coroutines Flow in the Android Dev Summit 2019 app", description: "Manuel Vivo just posted an article showcasing the best practices he found when using Flow in the Android Dev Summit (ADS) 2019 app - which, by the way, has just been open-sourced.", link: "https://medium.com/androiddevelopers/lessons-learnt-using-coroutines-flow-4a6b285c0d06"}
-    - {text: "Google", description: "Google description", link: "https://www.google.com/intl/en/about/"}
+    - {text: "List of KTX extensions", description: "Finally, the entire list of KTX extensions have been compiled by Google, and you will not forget them anymore. This website is a great candidate to be added to your favorites.", link: "https://developer.android.com/kotlin/ktx/extensions-list"}
 videos:
-    - {text: "Google", description: "Google description", link: "https://www.google.com/intl/en/about/"}
-    - {text: "Google", description: "Google description", link: "https://www.google.com/intl/en/about/"}
+    - {text: "Arrow Meta. Kotlin Metaprogramming for the masses", description: "Simon Vergauwen, Core Arrow maintainer and Senior Software Engineer at 47 Degrees, explores Arrow and the future of FP in Kotlin in this talk ", link: "https://www.youtube.com/watch?v=DaognWtZCbs"}
+    - {text: "Kotlin Not-to-Do List - What we should avoid doing in Kotlin", description: "We highlight quite often how to use a language, but what if we would highlight what we should not do it? This is what Marcin Moskala does in this presentation.", link: "https://www.youtube.com/watch?v=-YkDyE-K2Kc"}
 podcast:
-    - {text: "Google", description: "Google description", link: "https://www.google.com/intl/en/about/"}
-    - {text: "Google", description: "Google description", link: "https://www.google.com/intl/en/about/"}
+    - {text: "Kotlin in Academia", description: "Hadi Hariri talks with the folks from ISEL (Instituto Superior de Engenharia de Lisboa) about their gradual adoption of Kotlin, starting from Android to now having a course on teaching programming with Kotlin", link: "https://talkingkotlin.com/kotlin-in-academia/"}
+    - {text: "Canvas and Graphics Programming", description: "In this new chapter of Talking Kotlin, Hadi Hariri speaks with Rebecca Franks about Graphics Programming on Android and how Kotlin can help, availability of Kotlin libraries and where and if code sharing could help with graphics programming when targeting multiple platforms.", link: "https://talkingkotlin.com/canvas-and-graphics-programming/"}
 jobs:
-    - {text: "Google", description: "Google description", link: "https://www.google.com/intl/en/about/"}
-    - {text: "Google", description: "Google description", link: "https://www.google.com/intl/en/about/"}
+    - {text: "X-Team is Hiring Android/Kotlin Developers (Remote)", description: "We are looking for passionate Android/Kotlin developers to work with the world's leading brands, from anywhere. Travel the world while being part of the most energizing community of developers. We fund everything you need to stay active & growing. Join X-Team.", link: "https://x-team.com/remote-android-developer-jobs/?utm_source=kotlinweekly&utm_medium=email-ad"}
 kotlinMultiplatformArticles:
-    - {text: "Google", description: "Google description", link: "https://www.google.com/intl/en/about/"}
-    - {text: "Google", description: "Google description", link: "https://www.google.com/intl/en/about/"}
+    - {text: "Kotlin for cross-platform Mobile Development", description: "JetBrains has put together a guide with all the information you need to get started doing cross-platform mobile development. If you werw wondering how, you need to check this out.", link: "https://www.jetbrains.com/lp/mobilecrossplatform/"}
+    - {text: "Minimal Kotlin Multiplatform project using Compose and SwiftUI", description: "John O'Reilly has created a small Kotlin Multiplatform project, using Jetpack Compose for the Android app and the iOS UI being developed with SwiftUI. ", link: "https://johnoreilly.dev/posts/minimal-kotlin-platform-compose-swiftui/"}
 conferences:
-    - {text: "Google", description: "Google description", link: "https://www.google.com/intl/en/about/"}
-    - {text: "Google", description: "Google description", link: "https://www.google.com/intl/en/about/"}
+    - {text: "KotlinConf 2019 sessions", description: "The sessions for the KotlinConf 2019 have been finally released. A great plan to fill in during your free time during the next holidays, and catch up with everything happening at the KotlinConf 2019.", link: "https://www.youtube.com/playlist?list=PLQ176FUIyIUY6SKGl3Cj9yeYibBuRr3Hl"}
+    - {text: "Calling the Kotlin Opensource Developers", description: "For the first time, Kotlin developers will be represented at the biggest European open-source conference, in Brussels on February 1st and 2nd 2020, on the the Kotlin DevRoom at FOSDEM. Fosdem is a non-commercial, volunteer-organized and free event. And they are looking for Kotlin speakers, so make sure to check out their website.", link: "https://ncorti.com/blog/calling-the-kotlin-opensource-developers"}
