@@ -7,6 +7,7 @@ data class Issue(
     val number: Int,
     val date: String,
     val title: String,
+    val announcements: List<Item>? = null,
     val articles: List<Item>? = null,
     val jobs: List<Item>? = null,
     val sponsored: Item? = null,
