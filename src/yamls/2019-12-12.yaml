@@ -1,0 +1,16 @@
+number: 178
+date: 28th of December 2019
+title: Hello Kotliners! This is the last Kotlin Weekly issue we will be sending in 2019. It has been fantastic to have such a motivated community around. 2019 has been a fantastic year for all of us Kotlin aficionados, and 2020 looks equally promising. Enjoy your Sunday, and we hope to see you back in 2020 with renewed energies.
+articles:
+    - {text: "Back-pressure in Kotlin Flows", description: "Back-pressure is a mechanism to control the data flow in reactive programming, and the concept is taken from fluid dynamics. In this article, see how we can apply back-pressure in our Kotlin flows to ensure a smooth flow of data.", link: "https://medium.com/@davidecerbo/backpressure-in-kotlin-flows-9324d86c964e"}
+    - {text: "Kotlin as a scripting language", description: "Kotlin can be used to create scripts, simple Kotlin snippets without the need for the main function that you would need in a typical program. GDE Daniele Bonaldo wrote an article explaining how to do it.", link: "https://www.danielebonaldo.com/kotlin-script/"}
+    - {text: "Understanding Higher-Order Functions and Lambdas in Kotlin", description: "In this article, Amit Shekhar gives a nice overview of what Higher-Order functions and lambdas are in Kotlin.", link: "https://blog.mindorks.com/understanding-higher-order-functions-and-lambdas-in-kotlin"}
+    - {text: "Uniform list access with subscripts", description: "In this new article at okkotlin, it is discussed how we can add subscript access to our custom data models through operator overloading.", link: "https://okkotlin.com/subscripts/"}
+    - {text: "What the Flow?", description: "Shelby Cohen dived into Flow after the KotlinConf, wondering what this really was and whether it was a better alternative. He wrote and share this post with us.", link: "https://medium.com/@shelbyc0hen/what-the-flow-c707da1c3903?"}
+sponsored:
+    {text: "How to Build an Android Chat App with Java or Kotlin", description: "Learn how to use our Android Chat SDK to create a polished messaging experience with typing indicators, read state, attachments, reactions, user presence, and threads.", link: "http://bit.ly/2Sxs8gK"}
+kotlinMultiplatformArticles:
+    - {text: "Minimal Kotlin Multiplatform project using Compose and SwiftUI", description: "John O'Reilly has created a small Kotlin Multiplatform project, using Jetpack Compose for the Android app and the iOS UI being developed with SwiftUI. ", link: "https://johnoreilly.dev/posts/minimal-kotlin-platform-compose-swiftui/"}
+    - {text: "Christmas Hacking: Squeezing Kotlin Native into Docker", description: "Marc Reichelt has been experimenting with K/N and how it could be packed onto Docker. He presents in this article his results.", link: "https://dev.to/mreichelt/christmas-hacking-squeezing-kotlin-native-into-docker-6ao"}
+videos:
+    - {text: "What's New in Java 19: The end of Kotlin?", description: "Session at the KotlinConf by Jake Wharton. At this talk, he compares and contrasts how Kotlin and Java approach solving the same problems of today's Java.", link: "https://www.youtube.com/watch?v=te3OU9fxC8U"}
