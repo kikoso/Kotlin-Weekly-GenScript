@@ -253,7 +253,7 @@ fun createConferences(articles: List<Item>): String {
             "    float:left\">\n" +
             "<p style=\"text-align: center;\"><br />\n" +
             "<img data-file-id=\"2573205\" height=\"65\" src=\"https://gallery.mailchimp.com/f39692e245b94f7fb693b6d82/images/d6dd1767-fc87-4f29-8899-ab4caae6903d.png\" style=\"border: 0px initial ; width: 65px; height: 65px; margin: 0px;\" width=\"65\" /><br />\n" +
-            "<strong><span style=\"font-size:11px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><span style=\"color:#FFFFFF\"><span style=\"background-color:"+Colors.CONFERENCES+"; padding:5px 5px 5px 5px\">Podcast</span></span></span></span></strong></p>\n" +
+            "<strong><span style=\"font-size:11px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><span style=\"color:#FFFFFF\"><span style=\"background-color:"+Colors.CONFERENCES+"; padding:5px 5px 5px 5px\">Conferences</span></span></span></span></strong></p>\n" +
             "</div>"
     html += "<div style=\"  \n" +
             "    width:70%;\n" +
