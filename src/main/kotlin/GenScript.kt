@@ -67,7 +67,7 @@ fun createAnnouncements(articles: List<Item>): String {
         html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"color:#7874b4\">" + url.host + "</span></strong></a><br />\n" +
                 "<br />"
     }
-    html += "</div></div>"
+    html += "</div></div>\n"
 
     return html
 }
@@ -94,7 +94,7 @@ fun createArticles(articles: List<Item>): String {
         html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"color:"+Colors.ARTICLES+"\">" + url.host + "</span></strong></a><br />\n" +
                 "<br />"
     }
-    html += "</div></div>"
+    html += "</div></div>\n"
 
     return html
 }
@@ -120,7 +120,7 @@ fun createAndroid(articles: List<Item>): String {
                 "<br />"
     }
 
-    html += "</div></div></div></div>"
+    html += "</div></div>\n"
     return html
 }
 
@@ -164,7 +164,7 @@ fun createMultiplatform(articles: List<Item>): String {
                 "<br />"
     }
 
-    html += "</div></div></div></div>"
+    html += "</div></div>\n"
     return html
 }
 
@@ -188,7 +188,7 @@ fun createJobs(articles: List<Item>): String {
                 "<br />"
     }
 
-    html += "</div></div></div></div>"
+    html += "</div></div>\n"
     return html
 }
 
@@ -213,7 +213,7 @@ fun createVideos(articles: List<Item>): String {
                 "<br />"
     }
 
-    html += "</div></div></div></div>"
+    html += "</div></div>\n"
     return html
 }
 
@@ -238,7 +238,7 @@ fun createPodcast(articles: List<Item>): String {
                 "<br />"
     }
 
-    html += "</div></div></div></div>"
+    html += "</div></div>\n"
     return html
 }
 
@@ -263,7 +263,7 @@ fun createConferences(articles: List<Item>): String {
                 "<br />"
     }
 
-    html += "</div></div></div></div>"
+    html += "</div></div>\n"
     return html
 }
 

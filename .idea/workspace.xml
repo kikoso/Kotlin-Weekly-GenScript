@@ -29,6 +29,7 @@
   </component>
   <component name="ProjectId" id="1VmevOnbuxRhrdpGnYSSLM1Evj3" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -85,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577862927249</updated>
       <workItem from="1577862929298" duration="8659000" />
-      <workItem from="1577879942478" duration="7690000" />
+      <workItem from="1577879942478" duration="7931000" />
     </task>
     <servers />
   </component>
