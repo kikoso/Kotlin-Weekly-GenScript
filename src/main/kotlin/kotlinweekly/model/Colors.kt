@@ -7,7 +7,7 @@ class Colors {
         val ANNOUNCEMENTS = "#7874b4"
         val SPONSORED = "#b3a34f"
         val JOBS = "#1a3b47"
-        val PODCAST = "#efd462"
+        val PODCAST = "#e5be01"
         val VIDEO = "#639fcb"
         val ARTICLES = "#f1646c"
         val CONFERENCES = "#cc916e"
