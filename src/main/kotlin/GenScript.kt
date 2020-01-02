@@ -107,11 +107,7 @@ fun createAndroid(articles: List<Item>): String {
             "    float:left;\n" +
             "    \"><br />\n"
     for (article in articles) {
-        html += "<div style=\"  \n" +
-                "    width:70%;\n" +
-                "    float:left;\n" +
-                "    \"><br />\n" +
-                "<a href=\"" + article.link + "\" style=\"text-decoration:none\" target=\"_blank\"><span style=\"font-size:16px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><strong><span style=\"color:"+Colors.ANDROID+"\">" + article.text + "</span></strong></span></span></a><br />\n" +
+        html += "<a href=\"" + article.link + "\" style=\"text-decoration:none\" target=\"_blank\"><span style=\"font-size:16px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><strong><span style=\"color:"+Colors.ANDROID+"\">" + article.text + "</span></strong></span></span></a><br />\n" +
                 "" + article.description + "<br />"
         val url = URL(article.link)
         html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"color:"+Colors.ANDROID+"\">" + url.host + "</span></strong></a><br />\n" +
@@ -155,11 +151,7 @@ fun createMultiplatform(articles: List<Item>): String {
             "    float:left;\n" +
             "    \"><br />\n"
     for (article in articles) {
-        html += "<div style=\"  \n" +
-                "    width:70%;\n" +
-                "    float:left;\n" +
-                "    \"><br />\n" +
-                "<a href=\"" + article.link + "\" style=\"text-decoration:none\" target=\"_blank\"><span style=\"font-size:16px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><strong><span style=\"color:"+Colors.KOTLIN_MULTIPLATFORM+"\">" + article.text + "</span></strong></span></span></a><br />\n" +
+        html += "<a href=\"" + article.link + "\" style=\"text-decoration:none\" target=\"_blank\"><span style=\"font-size:16px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><strong><span style=\"color:"+Colors.KOTLIN_MULTIPLATFORM+"\">" + article.text + "</span></strong></span></span></a><br />\n" +
                 "" + article.description + "<br />"
         val url = URL(article.link)
         html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"color:"+Colors.KOTLIN_MULTIPLATFORM+"\">" + url.host + "</span></strong></a><br />\n" +
@@ -208,11 +200,7 @@ fun createVideos(articles: List<Item>): String {
             "    float:left;\n" +
             "    \"><br />\n"
     for (article in articles) {
-        html += "<div style=\"  \n" +
-                "    width:70%;\n" +
-                "    float:left;\n" +
-                "    \"><br />\n" +
-                "<a href=\"" + article.link + "\" style=\"text-decoration:none\" target=\"_blank\"><span style=\"font-size:16px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><strong><span style=\"color:"+Colors.VIDEO+"\">" + article.text + "</span></strong></span></span></a><br />\n" +
+        html += "<a href=\"" + article.link + "\" style=\"text-decoration:none\" target=\"_blank\"><span style=\"font-size:16px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><strong><span style=\"color:"+Colors.VIDEO+"\">" + article.text + "</span></strong></span></span></a><br />\n" +
                 "" + article.description + "<br />"
         val url = URL(article.link)
         html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"color:"+Colors.VIDEO+"\">" + url.host + "</span></strong></a><br />\n" +
@@ -237,11 +225,7 @@ fun createPodcast(articles: List<Item>): String {
             "    float:left;\n" +
             "    \"><br />\n"
     for (article in articles) {
-        html += "<div style=\"  \n" +
-                "    width:70%;\n" +
-                "    float:left;\n" +
-                "    \"><br />\n" +
-                "<a href=\"" + article.link + "\" style=\"text-decoration:none\" target=\"_blank\"><span style=\"font-size:16px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><strong><span style=\"color:"+Colors.PODCAST+"\">" + article.text + "</span></strong></span></span></a><br />\n" +
+        html += "<a href=\"" + article.link + "\" style=\"text-decoration:none\" target=\"_blank\"><span style=\"font-size:16px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><strong><span style=\"color:"+Colors.PODCAST+"\">" + article.text + "</span></strong></span></span></a><br />\n" +
                 "" + article.description + "<br />"
         val url = URL(article.link)
         html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"color:"+Colors.PODCAST+"\">" + url.host + "</span></strong></a><br />\n" +
@@ -266,11 +250,7 @@ fun createConferences(articles: List<Item>): String {
             "    float:left;\n" +
             "    \"><br />\n"
     for (article in articles) {
-        html += "<div style=\"  \n" +
-                "    width:70%;\n" +
-                "    float:left;\n" +
-                "    \"><br />\n" +
-                "<a href=\"" + article.link + "\" style=\"text-decoration:none\" target=\"_blank\"><span style=\"font-size:16px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><strong><span style=\"color:"+Colors.CONFERENCES+"\">" + article.text + "</span></strong></span></span></a><br />\n" +
+        html += "<a href=\"" + article.link + "\" style=\"text-decoration:none\" target=\"_blank\"><span style=\"font-size:16px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><strong><span style=\"color:"+Colors.CONFERENCES+"\">" + article.text + "</span></strong></span></span></a><br />\n" +
                 "" + article.description + "<br />"
         val url = URL(article.link)
         html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"color:"+Colors.CONFERENCES+"\">" + url.host + "</span></strong></a><br />\n" +
