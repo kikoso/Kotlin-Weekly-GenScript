@@ -37,7 +37,7 @@ fun main() {
 fun createMdFile(result: Issue, filename: String) {
     var output = ""
 
-    output += "----\n" +
+    output += "---\n" +
             "title: \"Kotlin Weekly #-" + result.number + "!\"\n" +
             "link: \"https://mailchi.mp/kotlinweekly/kotlin-weekly-" + result.number + "\"\n" +
             "---\n"
@@ -114,7 +114,15 @@ fun createMdFile(result: Issue, filename: String) {
         }
     }
 
-    File("src/mds/"+filename).writeText(output)
+    output += "**Contribute**\n" +
+            "\n" +
+            "We rely on sponsors to offer quality content every Sunday. If you would like to submit a sponsored link [contact us!](mailto:mailinglist@kotlinweekly.net?subject=Sponsoring%20for%20Kotlin%20Weekly).\n" +
+            "\n" +
+            "If you want to submit an article for the next issue, [please do also drop us an email.](mailto:mailinglist@kotlinweekly.net?subject=Link for submission - Kotlin Weekly)\n" +
+            "\n" +
+            "Thanks to JetBrains for their support!"
+
+    File("src/mds/"+filename+".md").writeText(output)
 }
 
 fun createHeader(number: String, date: String): String {
