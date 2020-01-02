@@ -23,3 +23,6 @@ jobs:
 kotlinMultiplatformArticles:
     - {text: "Google", description: "Google description", link: "https://www.google.com/intl/en/about/"}
     - {text: "Google", description: "Google description", link: "https://www.google.com/intl/en/about/"}
+conferences:
+    - {text: "Google", description: "Google description", link: "https://www.google.com/intl/en/about/"}
+    - {text: "Google", description: "Google description", link: "https://www.google.com/intl/en/about/"}

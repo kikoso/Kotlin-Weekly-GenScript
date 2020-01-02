@@ -14,7 +14,8 @@ data class Issue(
     val videos: List<Item>? = null,
     val podcast: List<Item>? = null,
     val android: List<Item>? = null,
-    val kotlinMultiplatformArticles: List<Item>? = null
+    val kotlinMultiplatformArticles: List<Item>? = null,
+    val conferences: List<Item>? = null
 )
 
 @Serializable

@@ -1,4 +1,5 @@
 import com.charleskorn.kaml.Yaml
+import kotlinweekly.model.Colors
 import kotlinweekly.model.Issue
 import kotlinweekly.model.Item
 import java.io.File
@@ -18,6 +19,7 @@ fun main() {
     result.videos?.let { html += createVideos(result.videos) }
     result.jobs?.let { html += createJobs(result.jobs) }
     result.podcast?.let { html += createPodcast(result.podcast) }
+    result.conferences?.let { html += createPodcast(result.conferences) }
 
     html += createFooter()
     print(html)
@@ -72,7 +74,7 @@ fun createArticles(articles: List<Item>): String {
             "    float:left\">\n" +
             "<p style=\"text-align: center;\"><br />\n" +
             "<img data-file-id=\"2573169\" height=\"64\" src=\"https://gallery.mailchimp.com/f39692e245b94f7fb693b6d82/images/aecc15c5-3b55-4f56-b171-6c933eabb173.png\" style=\"border: 0px initial ; width: 65px; height: 64px; margin: 0px;\" width=\"65\" /><br />\n" +
-            "<strong><span style=\"font-size:11px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><span style=\"color:#FFFFFF\"><span style=\"background-color:#f1646c; padding:5px 5px 5px 5px\">Articles</span></span></span></span></strong></p>\n" +
+            "<strong><span style=\"font-size:11px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><span style=\"color:#FFFFFF\"><span style=\"background-color:"+ Colors.ARTICLES+"; padding:5px 5px 5px 5px\">Articles</span></span></span></span></strong></p>\n" +
             "</div>\n"
     html += "<div style=\"  \n" +
             "    width:70%;\n" +
@@ -80,10 +82,10 @@ fun createArticles(articles: List<Item>): String {
             "    \"><br />\n"
 
     for (article in articles) {
-        html += "<a href=\"" + article.link + "\" style=\"text-decoration:none\" target=\"_blank\"><span style=\"font-size:16px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><strong><span style=\"color:#f1646c\">" + article.text + "</span></strong></span></span></a><br />\n" +
+        html += "<a href=\"" + article.link + "\" style=\"text-decoration:none\" target=\"_blank\"><span style=\"font-size:16px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><strong><span style=\"color:#"+Colors.ARTICLES+"\">" + article.text + "</span></strong></span></span></a><br />\n" +
                 "" + article.description + "<br />"
         var url = URL(article.link)
-        html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"color:#f1646c\">" + url.host + "</span></strong></a><br />\n" +
+        html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"color:#"+Colors.ARTICLES+">" + url.host + "</span></strong></a><br />\n" +
                 "<br />"
     }
     html += "</div></div>"
@@ -222,6 +224,35 @@ fun createVideos(articles: List<Item>): String {
 }
 
 fun createPodcast(articles: List<Item>): String {
+    var html = "<div style=\"overflow: hidden;\">\n" +
+            "<div style=\"\n" +
+            "    width:30%;\n" +
+            "    float:left\">\n" +
+            "<p style=\"text-align: center;\"><br />\n" +
+            "<img data-file-id=\"2573205\" height=\"65\" src=\"https://gallery.mailchimp.com/f39692e245b94f7fb693b6d82/images/d6dd1767-fc87-4f29-8899-ab4caae6903d.png\" style=\"border: 0px initial ; width: 65px; height: 65px; margin: 0px;\" width=\"65\" /><br />\n" +
+            "<strong><span style=\"font-size:11px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><span style=\"color:#FFFFFF\"><span style=\"background-color:#79c5b4; padding:5px 5px 5px 5px\">Podcast</span></span></span></span></strong></p>\n" +
+            "</div>"
+    html += "<div style=\"  \n" +
+            "    width:70%;\n" +
+            "    float:left;\n" +
+            "    \"><br />\n"
+    for (article in articles) {
+        html += "<div style=\"  \n" +
+                "    width:70%;\n" +
+                "    float:left;\n" +
+                "    \"><br />\n" +
+                "<a href=\"" + article.link + "\" style=\"text-decoration:none\" target=\"_blank\"><span style=\"font-size:16px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><strong><span style=\"color:#79c5b4\">" + article.text + "</span></strong></span></span></a><br />\n" +
+                "" + article.description + "<br />"
+        val url = URL(article.link)
+        html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"color:#79c5b4\">" + url.host + "</span></strong></a><br />\n" +
+                "<br />"
+    }
+
+    html += "</div></div></div></div>"
+    return html
+}
+
+fun createConferences(articles: List<Item>): String {
     var html = "<div style=\"overflow: hidden;\">\n" +
             "<div style=\"\n" +
             "    width:30%;\n" +
