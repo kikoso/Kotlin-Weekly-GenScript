@@ -8,7 +8,7 @@ import java.io.File
 import java.net.URL
 
 fun main() {
-    val filename = "2020-01-05"
+    val filename = "2020-01-02"
     val file = File("src/yamls/" + filename + ".yaml")
     val result = Yaml.default.parse(Issue.serializer(), file.readText())
 
@@ -54,7 +54,7 @@ fun createMdFile(result: Issue, filename: String) {
 
     result.sponsored?.let {
         val url = URL(result.sponsored.link)
-        output += "[" + result.sponsored.text + "](" + result.sponsored.link + ") (" + url.host + ")\n"
+        output += "[SPONSORED] [" + result.sponsored.text + "](" + result.sponsored.link + ") (" + url.host + ")\n"
         output += result.sponsored.description + "\n\n"
     }
 
@@ -122,7 +122,22 @@ fun createMdFile(result: Issue, filename: String) {
             "\n" +
             "Thanks to JetBrains for their support!"
 
-    File("src/mds/"+filename+".md").writeText(output)
+    File("src/mds/"+filename+"-title.md").writeText(output)
+
+    //Copy file to the kotlin-weekly project
+    Runtime.getRuntime().exec("cp src/mds/"+filename+"-title.md ../kotlin-weekly/_posts/")
+
+    println("Moving to kotlin-weekly directory")
+    Runtime.getRuntime().exec("cd ../kotlin-weekly")
+
+   /* println("Adding all files")
+    Runtime.getRuntime().exec("git add .")
+
+    println("Committing new posts")
+    Runtime.getRuntime().exec("git commit -m \"Automatically adding post to kotlin-weekly repo\"")
+
+    println("Pushing to master")
+    Runtime.getRuntime().exec("git push origin master")*/
 }
 
 fun createHeader(number: String, date: String): String {
