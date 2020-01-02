@@ -2,6 +2,8 @@ import com.charleskorn.kaml.Yaml
 import kotlinweekly.model.Colors
 import kotlinweekly.model.Issue
 import kotlinweekly.model.Item
+import java.awt.Toolkit
+import java.awt.datatransfer.StringSelection
 import java.io.File
 import java.net.URL
 
@@ -22,6 +24,10 @@ fun main() {
     result.conferences?.let { html += createConferences(result.conferences) }
 
     html += createFooter()
+
+    val clipboard = Toolkit.getDefaultToolkit().systemClipboard
+    clipboard.setContents(StringSelection(html), null)
+
     print(html)
 }
 
