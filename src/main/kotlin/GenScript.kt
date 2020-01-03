@@ -8,7 +8,7 @@ import java.io.File
 import java.net.URL
 
 fun main() {
-    val filename = "2019-12-29"
+    val filename = "2019-12-22"
     val file = File("src/yamls/" + filename + ".yaml")
     val result = Yaml.default.parse(Issue.serializer(), file.readText())
 
