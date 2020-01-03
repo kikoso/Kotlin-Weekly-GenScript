@@ -1,6 +1,6 @@
 number: 177
 date: 22nd of December 2019
-title: Hello from 🇻🇳Kotliners! Next week will be Christmas, so if you celebrate them we wish you a beautiful time with your family and loved ones. If you don't celebrate them, we also wish you this beautiful time. And of course, we wish you enjoy our curated selection of topics for the upcoming weeks (SPOILER: KotlinConf videos are available). Enjoy.
+title: Hello from 🇻🇳 Kotliners! Next week will be Christmas, so if you celebrate them we wish you a beautiful time with your family and loved ones. If you don't celebrate them, we also wish you this beautiful time. And of course, we wish you enjoy our curated selection of topics for the upcoming weeks. KotlinConf videos are available. Enjoy.
 articles:
     - {text: "Making Kotlin Ready for Data Science", description: "This year at KotlinConf 2019, Roman Belov gave an overview on Kotlin’s approach to data science. Now that the talk is available for everyone to see, the folks at JetBrains decided to recap it and share a bit more on the current state of Kotlin tools and libraries for data science.", link: "https://blog.jetbrains.com/kotlin/2019/12/making-kotlin-ready-for-data-science/"}
     - {text: "Kotlin coroutines with arrow-fx", description: "With the recent release of Arrow 0.10.X Arrow's team has taken the last quality jump before a potential 1.0 release. FP magician Paco Estévez has published a Reference Guide to use Coroutines with Arrow-fx 0.10.", link: "https://www.pacoworks.com/2019/12/15/kotlin-coroutines-with-arrow-fx/"}
