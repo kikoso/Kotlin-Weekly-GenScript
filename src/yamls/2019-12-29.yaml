@@ -1,5 +1,5 @@
 number: 178
-date: 28th of December 2019
+date: 29th of December 2019
 title: Hello Kotliners! This is the last Kotlin Weekly issue we will be sending in 2019. It has been fantastic to have such a motivated community around. 2019 has been a fantastic year for all of us Kotlin aficionados, and 2020 looks equally promising. Enjoy your Sunday, and we hope to see you back in 2020 with renewed energies.
 articles:
     - {text: "Back-pressure in Kotlin Flows", description: "Back-pressure is a mechanism to control the data flow in reactive programming, and the concept is taken from fluid dynamics. In this article, see how we can apply back-pressure in our Kotlin flows to ensure a smooth flow of data.", link: "https://medium.com/@davidecerbo/backpressure-in-kotlin-flows-9324d86c964e"}
