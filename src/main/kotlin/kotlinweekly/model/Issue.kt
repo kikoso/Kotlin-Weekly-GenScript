@@ -23,7 +23,7 @@ class Item(
     val title: String,
     val description: String,
     val link: String,
-    val shortUrl: String?
+    val shortUrl: String? = null
 ) {
 
     fun getLinkingUrl(): String {
