@@ -1,0 +1,16 @@
+number: 179
+date: 5th of January 2020
+title: Hello Kotliners, and welcome to a new and exciting year! We hope you are starting the year both with high goals, and that those first days have been mild and kind to all of you. Now, let's start with the first of 53 issues that will be sent this year!
+articles:
+    - {text: "Making state changes explicit with the State Monad", description: "Arrow maintainer Jorge Castillo has written a new FP article explaining how to make state changes explicit with the State Monad - and how they achieve it with Arrow.", link: "https://jorgecastillo.dev/state-monad"}
+    - {text: "Announcing Krush – idiomatic persistence layer for Kotlin, based on Exposed", description: "The team at Touk has created Krush, a small idiomatic persistence layer for Kotlin based on Exposed SQL DSL. This is their introductory post.", link: "https://touk.pl/blog/2019/12/30/announcing-krush%e2%80%8a-%e2%80%8aidiomatic-persistence-layer-for-kotlin-based-on-exposed/"}
+    - {text: "Interface delegation in Kotlin", description: "Interface delegation, in Kotlin, is a simple yet powerful technique that allows a class to delegate the actual implementation of the interfaces, to separate objects. Explore more about it in this article", link: "https://medium.com/@Joseph82/interface-delegation-in-kotlin-1404dfcd9167"}
+android:
+    - {text: "How to make a Scrollable list in Jetpack Compose?", description: "You would be surprised how easy it is to create a list in Jetpack Compose. In this article, Nikit Bhandari explores how to effectively achieve it.", link: "https://proandroiddev.com/how-to-make-a-recyclerview-in-jetpack-compose-fd54417d8479"}
+    - {text: "Android Unidirectional Data Flow — Local Unit Testing", description: "When Adam Hurwitz started building the Unidirectional Data Flow (UDF) with LiveData pattern five months ago, he did not have any testing experience. This made for a great opportunity to develop local unit testing fundamentals in Coinverse same code below.", link: "https://proandroiddev.com/how-to-make-a-recyclerview-in-jetpack-compose-fd54417d8479"}
+conferences:
+    - {text: "Save $130 on your Chicago Roboto 2020 Ticket.", description: "Join developers from around the globe in Chicago for two days of deep tech talks, community and networking. A refreshing mix of well known speakers and new voices in the Android community come together to share their knowledge with everyone.", link: "http://bit.ly/2tq7iWe"}
+videos:
+    - {text: "KotlinConfersation.", description: "Huyen Tue Dao was conducting some interviews with folks at the KotlinCon. Here you can see the recordings.", link: "https://www.youtube.com/watch?v=roKglk_5EWc"}
+kotlinMultiplatformArticles:
+    - {text: "Cross-platform with Kotlin/Native at PlanGrid.", description: "The folks at PlanGrid started using Kotlin/Native and Kotlin multiplatform as their first cross-platform initiative at the start of 2019. They share with us their experiences and learnings.", link: "https://medium.com/plangrid-technology/cross-platform-with-kotlin-native-at-plangrid-3e84b9cfe39c"}
