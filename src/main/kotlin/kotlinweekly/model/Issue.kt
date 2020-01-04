@@ -20,8 +20,19 @@ data class Issue(
 
 @Serializable
 class Item(
-    val text: String,
+    val title: String,
     val description: String,
-    val link: String
-)
+    val link: String,
+    val shortUrl: String?
+) {
+
+    fun getLinkingUrl(): String {
+        if (shortUrl != null) {
+            return shortUrl
+        } else {
+            return link
+        }
+    }
+}
+
 
