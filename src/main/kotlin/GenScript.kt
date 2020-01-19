@@ -54,7 +54,7 @@ fun createMdFile(result: Issue, filename: String) {
 
     result.sponsored?.let {
         val url = URL(result.sponsored.link)
-        output += "[[SPONSORED]" + result.sponsored.title + "](" + result.sponsored.link + ") (" + url.host + ")\n"
+        output += "[[SPONSORED] " + result.sponsored.title + "](" + result.sponsored.link + ") (" + url.host + ")\n"
         output += result.sponsored.description + "\n\n"
     }
 
