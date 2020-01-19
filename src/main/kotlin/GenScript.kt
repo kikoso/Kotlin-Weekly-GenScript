@@ -8,7 +8,7 @@ import java.io.File
 import java.net.URL
 
 fun main() {
-    val filename = "2020-01-12"
+    val filename = "2020-01-19"
     val file = File("src/yamls/" + filename + ".yaml")
     val result = Yaml.default.parse(Issue.serializer(), file.readText())
 
@@ -205,7 +205,7 @@ fun createArticles(articles: List<Item>): String {
                 "<br />"
     }
     html = html.dropLast(6)
-    html += "</div></div>\n"
+    html += "</div></div><br />\n"
 
     return html
 }
@@ -275,7 +275,7 @@ fun createMultiplatform(articles: List<Item>): String {
                 "<br />"
     }
     html = html.dropLast(6)
-    html += "</div></div>\n"
+    html += "</div></div><br />\n"
     return html
 }
 
