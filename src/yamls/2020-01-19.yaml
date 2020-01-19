@@ -1,0 +1,18 @@
+number: 181
+date: 19th of January 2020
+title: Hello Kotliners. There is always something new to be glad about, so we hope that you are enjoying the first third week of 2020 (next week it will be the first fourth week). Now enjoy our selection of articles - this week is loaded.
+articles:
+  - {title: "Alter type with typealias", description: "Florina Muntenescu explores in her latest article typealias, and how we can use it to expand our Kotlin vocabulary.", link: "https://medium.com/androiddevelopers/alter-type-with-typealias-4c03302fbe43"}
+  - {title: "Any, Unit, Nothing and all their friends", description: "This article dives into Any, Unit, Nothing, their peculiarities and where would you like to use each.", link: "https://medium.com/@patxi/any-unit-nothing-and-all-their-friends-e39613b48235?source=friends_link&sk=443131324919c34a4bc8d5eb8c1b2a7c"}
+android:
+  - {title: "Store grand re-opening: loading Android data with coroutines", description: "During his time at the New York Times Mike Nakhimovich created Store, a Java library for effortless, reactive data loading. This library has underwent a major surgery, and here you can read all the details about it.", link: "https://blogs.dropbox.com/tech/2020/01/store-grand-re-opening-loading-android-data-with-coroutines/"}
+  - {title: "RxJava to Coroutines: end-to-end feature migration", description: "The team at TransferWise migrated recently from RxJava to Coroutines. They wrote an article sharing with us their takeaways from the process.", link: "https://medium.com/transferwise-engineering/rxjava-to-coroutines-tw-96506fba5fb2"}
+sponsored:
+  {title: "Test, build and deploy your Android apps with Bitrise", description: "Automate your entire Android build process with Bitrise: run any Gradle task you wish on our virtual machine, perform virtual device testing with our Firebase integration, and deploy to Google Play as often as you want, with a single automatic trigger. Sign up for a free trial!", link: "https://www.bitrise.io/features/android-features/?utm_source=sponsorship_newsletter&utm_medium=cpc&utm_campaign=kotlinweekly&utm_content=kotlinweekly20012020"}
+jobs:
+  - {title: "Open Mobile Developer for Android (Notifications) job at Runtastic", description: "We believe in supporting people to improve their fitness and overall health. With more than 290 million downloads of our apps and 153+ million registered users on Runtastic.com, we face unusual and fascinating challenges everyday. Visa supported. Engage millions of users with our products by developing the tools to reach them via push, email, and in-app messages.", link: "https://www.runtastic.com/en/career"}
+conferences:
+  - {title: "Kotlin DevRoom at FOSDEM", description: "The FOSDEM Kotlin DevRoom has finally announced its content, and it looks fantastic. Remember that the FOSDEM is a free event by developers and for developers, and it is a great chance to meet other peers in the industry.", link: "https://fosdem.org/2020/schedule/track/kotlin/"}
+kotlinMultiplatformArticles:
+  - {title: "Building an App with Kotlin Multiplatform: Structuring our app", description: "Joe Birch has written an article about how you can create an structure a Kotlin Multiplatform app. Neat ideas inside it.", link: "https://joebirch.co/2020/01/16/building-an-app-with-kotlin-multiplatform-structuring-our-app/"}
+  - {title: "Handling SIGINT in Kotlin Native", description: "A SIGINT is the event sent to a process if you press Ctrl + C in the shell, and that usually exits a process. Learn in this article how to handle it in Kotlin Native.", link: "https://dev.to/mreichelt/handling-sigint-in-kotlin-native-2ac6"}
