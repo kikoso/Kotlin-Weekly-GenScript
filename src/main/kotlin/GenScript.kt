@@ -289,9 +289,9 @@ fun createJobs(articles: List<Item>): String {
             "</div>"
     for (article in articles) {
         html += "<div style=\"background-color:#f0f0f0;\n" +
-                "    width:70%;\n" +
-                "    float:left;\n" +
-                "    \"><br />\n" +
+                "    width:66%;\n" +
+                "     float:left; padding:5px 5px 5px 10px\n" +
+                "    \">\n" +
                 "<a href=\"" + article.getLinkingUrl() + "\" style=\"text-decoration:none\" target=\"_blank\"><span style=\"font-size:16px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><strong><span style=\"color:" + Colors.JOBS + "\">" + article.title + "</span></strong></span></span></a><br />\n" +
                 "" + article.description + "<br />"
         val url = URL(article.link)
