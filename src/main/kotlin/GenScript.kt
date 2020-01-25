@@ -174,7 +174,7 @@ fun createAnnouncements(articles: List<Item>): String {
         html += "<a href=\"" + article.getLinkingUrl() + "\" style=\"text-decoration:none\" target=\"_blank\"><span style=\"font-size:16px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><strong><span style=\"color:#7874b4\">" + article.title + "</span></strong></span></span></a><br />\n" +
                 "<span style=\"font-size:15px\">" + article.description + "</span><br />"
         var url = URL(article.link)
-        html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"color:#7874b4\">" + url.host + "</span></strong></a><br />\n" +
+        html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"font-size:15px; color:#7874b4\">" + url.host + "</span></strong></a><br />\n" +
                 "<br />"
     }
     html = html.dropLast(6)
@@ -202,7 +202,7 @@ fun createArticles(articles: List<Item>): String {
         html += "<a href=\"" + article.getLinkingUrl() + "\" style=\"text-decoration:none\" target=\"_blank\"><span style=\"font-size:16px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><strong><span style=\"color:" + Colors.ARTICLES + "\">" + article.title + "</span></strong></span></span></a><br />\n" +
                 "<span style=\"font-size:15px\">" + article.description + "</span><br />"
         var url = URL(article.link)
-        html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"color:" + Colors.ARTICLES + "\">" + url.host + "</span></strong></a><br />\n" +
+        html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"font-size:15px; color:" + Colors.ARTICLES + "\">" + url.host + "</span></strong></a><br />\n" +
                 "<br />"
     }
     html = html.dropLast(6)
@@ -228,7 +228,7 @@ fun createAndroid(articles: List<Item>): String {
         html += "<a href=\"" + article.getLinkingUrl() + "\" style=\"text-decoration:none\" target=\"_blank\"><span style=\"font-size:16px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><strong><span style=\"color:" + Colors.ANDROID + "\">" + article.title + "</span></strong></span></span></a><br />\n" +
                 "<span style=\"font-size:15px\">" + article.description + "</span><br />"
         val url = URL(article.link)
-        html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"color:" + Colors.ANDROID + "\">" + url.host + "</span></strong></a><br />\n" +
+        html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"font-size:15px; color:" + Colors.ANDROID + "\">" + url.host + "</span></strong></a><br />\n" +
                 "<br />"
     }
     html = html.dropLast(6)
@@ -250,7 +250,7 @@ fun createSponsored(sponsored: Item): String {
             "    float:left; padding:5px 5px 5px 10px\n" +
             "    \"><a href=\"" + sponsored.link + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"font-size:16px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><span style=\"color:" + Colors.SPONSORED + "\">" + sponsored.title + "</span></span></span></strong></a><br />\n" +
             "<span style=\"font-size:15px\">" + sponsored.description + "</span><br />" +
-            "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"color:" + Colors.SPONSORED + "\">getstream.io</span></strong></a></div>\n" +
+            "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"font-size:15px; color:" + Colors.SPONSORED + "\">getstream.io</span></strong></a></div>\n" +
             "</div>\n"
     return html
 }
@@ -272,7 +272,7 @@ fun createMultiplatform(articles: List<Item>): String {
         html += "<a href=\"" + article.getLinkingUrl() + "\" style=\"text-decoration:none\" target=\"_blank\"><span style=\"font-size:16px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><strong><span style=\"color:" + Colors.KOTLIN_MULTIPLATFORM + "\">" + article.title + "</span></strong></span></span></a><br />\n" +
                 "<span style=\"font-size:15px\">" + article.description + "</span><br />"
         val url = URL(article.link)
-        html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"color:" + Colors.KOTLIN_MULTIPLATFORM + "\">" + url.host + "</span></strong></a><br />\n" +
+        html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"font-size:15px; color:" + Colors.KOTLIN_MULTIPLATFORM + "\">" + url.host + "</span></strong></a><br />\n" +
                 "<br />"
     }
     html = html.dropLast(6)
@@ -296,7 +296,7 @@ fun createJobs(articles: List<Item>): String {
                 "<a href=\"" + article.getLinkingUrl() + "\" style=\"text-decoration:none\" target=\"_blank\"><span style=\"font-size:16px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><strong><span style=\"color:" + Colors.JOBS + "\">" + article.title + "</span></strong></span></span></a><br />\n" +
                 "<span style=\"font-size:15px\">" + article.description + "</span><br />"
         val url = URL(article.link)
-        html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"color:" + Colors.JOBS + "\">" + url.host + "</span></strong></a><br />\n" +
+        html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"font-size:15px; color:" + Colors.JOBS + "\">" + url.host + "</span></strong></a><br />\n" +
                 "<br />"
     }
     html = html.dropLast(6)
@@ -321,7 +321,7 @@ fun createVideos(articles: List<Item>): String {
         html += "<a href=\"" + article.getLinkingUrl() + "\" style=\"text-decoration:none\" target=\"_blank\"><span style=\"font-size:16px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><strong><span style=\"color:" + Colors.VIDEO + "\">" + article.title + "</span></strong></span></span></a><br />\n" +
                 "<span style=\"font-size:15px\">" + article.description + "</span><br />"
         val url = URL(article.link)
-        html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"color:" + Colors.VIDEO + "\">" + url.host + "</span></strong></a><br />\n" +
+        html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"font-size:15px; color:" + Colors.VIDEO + "\">" + url.host + "</span></strong></a><br />\n" +
                 "<br />"
     }
     html = html.dropLast(6)
@@ -347,7 +347,7 @@ fun createPodcast(articles: List<Item>): String {
         html += "<a href=\"" + article.getLinkingUrl() + "\" style=\"text-decoration:none\" target=\"_blank\"><span style=\"font-size:16px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><strong><span style=\"color:" + Colors.PODCAST + "\">" + article.title + "</span></strong></span></span></a><br />\n" +
                 "<span style=\"font-size:15px\">" + article.description + "</span><br />"
         val url = URL(article.link)
-        html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"color:" + Colors.PODCAST + "\">" + url.host + "</span></strong></a><br />\n" +
+        html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"font-size:15px; color:" + Colors.PODCAST + "\">" + url.host + "</span></strong></a><br />\n" +
                 "<br />"
     }
     html = html.dropLast(6)
@@ -373,7 +373,7 @@ fun createLibraries(libraries: List<Item>): String {
         html += "<a href=\"" + library.getLinkingUrl() + "\" style=\"text-decoration:none\" target=\"_blank\"><span style=\"font-size:16px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><strong><span style=\"color:" + Colors.LIBRARY + "\">" + library.title + "</span></strong></span></span></a><br />\n" +
                 "<span style=\"font-size:15px\">" + library.description + "</span><br />"
         val url = URL(library.link)
-        html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"color:" + Colors.LIBRARY + "\">" + url.host + "</span></strong></a><br />\n" +
+        html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"font-size:15px; color:" + Colors.LIBRARY + "\">" + url.host + "</span></strong></a><br />\n" +
                 "<br />"
     }
     html = html.dropLast(6)
@@ -399,7 +399,7 @@ fun createConferences(articles: List<Item>): String {
         html += "<a href=\"" + article.getLinkingUrl() + "\" style=\"text-decoration:none\" target=\"_blank\"><span style=\"font-size:16px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><strong><span style=\"color:" + Colors.CONFERENCES + "\">" + article.title + "</span></strong></span></span></a><br />\n" +
                 "<span style=\"font-size:15px\">" + article.description + "</span><br />"
         val url = URL(article.link)
-        html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"color:" + Colors.CONFERENCES + "\">" + url.host + "</span></strong></a><br />\n" +
+        html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"font-size:15px; color:" + Colors.CONFERENCES + "\">" + url.host + "</span></strong></a><br />\n" +
                 "<br />"
     }
     html = html.dropLast(6)
