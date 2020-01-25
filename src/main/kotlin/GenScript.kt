@@ -8,7 +8,7 @@ import java.io.File
 import java.net.URL
 
 fun main() {
-    val filename = "2020-01-19"
+    val filename = "2020-01-26"
     val file = File("src/yamls/" + filename + ".yaml")
     val result = Yaml.default.parse(Issue.serializer(), file.readText())
 
@@ -25,6 +25,7 @@ fun main() {
     result.jobs?.let { html += createJobs(result.jobs) }
     result.podcast?.let { html += createPodcast(result.podcast) }
     result.conferences?.let { html += createConferences(result.conferences) }
+    result.libraries?.let { html += createLibraries(result.libraries) }
 
     html += createFooter()
 
@@ -347,6 +348,32 @@ fun createPodcast(articles: List<Item>): String {
                 "" + article.description + "<br />"
         val url = URL(article.link)
         html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"color:" + Colors.PODCAST + "\">" + url.host + "</span></strong></a><br />\n" +
+                "<br />"
+    }
+    html = html.dropLast(6)
+
+    html += "</div></div>\n"
+    return html
+}
+
+fun createLibraries(libraries: List<Item>): String {
+    var html = "<div style=\"overflow: hidden;\">\n" +
+            "<div style=\"\n" +
+            "    width:30%;\n" +
+            "    float:left\">\n" +
+            "<p style=\"text-align: center;\"><br />\n" +
+            "<img data-file-id=\"2573205\" height=\"65\" src=\"https://gallery.mailchimp.com/f39692e245b94f7fb693b6d82/images/d6dd1767-fc87-4f29-8899-ab4caae6903d.png\" style=\"border: 0px initial ; width: 65px; height: 65px; margin: 0px;\" width=\"65\" /><br />\n" +
+            "<strong><span style=\"font-size:11px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><span style=\"color:#FFFFFF\"><span style=\"background-color:" + Colors.LIBRARY + "; padding:5px 5px 5px 5px\">Libraries</span></span></span></span></strong></p>\n" +
+            "</div>"
+    html += "<div style=\"  \n" +
+            "    width:70%;\n" +
+            "    float:left;\n" +
+            "    \"><br />\n"
+    for (library in libraries) {
+        html += "<a href=\"" + library.getLinkingUrl() + "\" style=\"text-decoration:none\" target=\"_blank\"><span style=\"font-size:16px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><strong><span style=\"color:" + Colors.LIBRARY + "\">" + library.title + "</span></strong></span></span></a><br />\n" +
+                "" + library.description + "<br />"
+        val url = URL(library.link)
+        html += "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"color:" + Colors.LIBRARY + "\">" + url.host + "</span></strong></a><br />\n" +
                 "<br />"
     }
     html = html.dropLast(6)

@@ -11,5 +11,6 @@ class Colors {
         val VIDEO = "#639fcb"
         val ARTICLES = "#f1646c"
         val CONFERENCES = "#cc916e"
+        val LIBRARY = "#800000"
     }
 }
