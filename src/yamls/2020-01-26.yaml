@@ -1,0 +1,21 @@
+number: 182
+date: 26th of January 2020
+title: Hello Kotliners, and Happy Lunar New Year to all of you celebrating. Each week we receive more articles from the community, and the task of selecting becomes harder. Here there is our upcoming weekly issue, enjoy it.
+announcements:
+  - {title: "Kotlin Census 2019: Call for Respondents", description: "The new edition of Kotlin Census is here. JetBrains is asking for our feedback, so this is a unique opportunity to influence the development of Kotlin.", link: "https://blog.jetbrains.com/kotlin/"}
+  - {title: "Kotlin Multiplatform survey", description: "Have you tried Kotlin Multiplatform for your mobile app? JetBrains would love to hear from your application and use case. If you are interested, reply to this Tweet.", link: "https://twitter.com/kotlin/status/1219575319327334400"}
+articles:
+  - {title: "Zero-cost* abstractions in Kotlin", description: "Next article by Florina Muntenescu in the series of Kotlin vocabulary, where she approaches this time inline classes and how to use them as wrappers without any performance costs.", link: "https://medium.com/androiddevelopers/zero-cost-abstractions-in-kotlin-19b953f3a936"}
+  - {title: "Utils class in Kotlin", description: "It is sure that in almost any piece of software we write, we will end up with a Util class. Tam Doan tells us in this article how he approached this problematic", link: "https://medium.com/@nhoxbypass/utils-class-in-kotlin-387a09b8d495"}
+  - {title: "Property-based testing in Kotlin — Part 1", description: "Kotlin incorporates the most recent understanding in software engineering into its language design. However, all those features does not always translate into the test. Check out in this article how can we write comprehensive property-based tests.", link: "https://medium.com/default-to-open/property-based-testing-in-kotlin-part-1-56929927b8b8"}
+sponsored:
+  {title: "How to Build an Android Chat App with Java or Kotlin", description: "Learn how to use our Android Chat SDK to create a polished messaging experience with typing indicators, read state, attachments, reactions, user presence, and threads.", shortUrl: "http://bit.ly/38H07IH", link: "http://bit.ly/2Sxs8gK"}
+jobs:
+  - {title: "X-Team is Hiring Android/Kotlin Developers (Remote)", description: "We are looking for passionate Android/Kotlin developers to work with the world's leading brands, from anywhere. Travel the world while being part of the most energizing community of developers. We fund everything you need to stay active & growing. Join X-Team.", link: "https://x-team.com/remote-android-developer-jobs/?utm_source=kotlinweekly&utm_medium=email-ad", shortUrl: "http://bit.ly/3aJqzD0"}
+kotlinMultiplatformArticles:
+  - {title: "Mobile Code Sharing with Kotlin Multiplatform", description: "Thoughts from Kevin Galligan about code sharing with Kotlin Multiplatform and how mobile developers should approach it", link: "https://touchlab.co/mobile-code-sharing-with-kotlin-multiplatform/"}
+podcast:
+  - {title: "Kotlin Cookbook", description: "Hadi Hariri speaks with Ken Kousen about his new book, Kotlin cookbook.", link: "https://talkingkotlin.com/kotlin-cookbook/"}
+  - {title: "Coroutines with Manuel Vivo & Sean McQuillan", description: "In this new episode of Fragmented Podcast, Manuel Vivo and Sean McQuillan speak about Coroutines.", link: "https://fragmentedpodcast.com/episodes/187/"}
+libraries:
+  - {title: "Kotlin Inject", description: "Inject is a new Kotlin multi-platform library that is a wrapper around the javax.inject annotations so that they can be used in Kotlin common code.", link: "https://chrynan.codes/kotlin-inject/"}
