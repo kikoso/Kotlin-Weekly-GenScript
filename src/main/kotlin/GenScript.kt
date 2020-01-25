@@ -336,7 +336,7 @@ fun createPodcast(articles: List<Item>): String {
             "    width:30%;\n" +
             "    float:left\">\n" +
             "<p style=\"text-align: center;\"><br />\n" +
-            "<img data-file-id=\"2573205\" height=\"65\" src=\"https://gallery.mailchimp.com/f39692e245b94f7fb693b6d82/images/c5426cd8-115e-4ec2-939e-877c8f8d4f31.png\" style=\"border: 0px initial ; width: 65px; height: 65px; margin: 0px;\" width=\"65\" /><br />\n" +
+            "<img data-file-id=\"2573205\" height=\"45\" src=\"https://gallery.mailchimp.com/f39692e245b94f7fb693b6d82/images/c5426cd8-115e-4ec2-939e-877c8f8d4f31.png\" style=\"border: 0px initial ; width: 45px; height: 45px; margin: 0px;\" width=\"45\" /><br />\n" +
             "<strong><span style=\"font-size:11px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><span style=\"color:#FFFFFF\"><span style=\"background-color:" + Colors.PODCAST + "; padding:5px 5px 5px 5px\">Podcast</span></span></span></span></strong></p>\n" +
             "</div>"
     html += "<div style=\"  \n" +
