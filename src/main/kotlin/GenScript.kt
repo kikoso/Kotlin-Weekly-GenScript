@@ -249,7 +249,7 @@ fun createSponsored(sponsored: Item): String {
             "    width:66%;\n" +
             "    float:left; padding:5px 5px 5px 10px\n" +
             "    \"><a href=\"" + sponsored.link + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"font-size:16px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><span style=\"color:" + Colors.SPONSORED + "\">" + sponsored.title + "</span></span></span></strong></a><br />\n" +
-            "<span style=\"font-size:15px\">" + sponsored.description + "</span><br />"
+            "<span style=\"font-size:15px\">" + sponsored.description + "</span><br />" +
             "<a href=\"" + url.host + "\" style=\"text-decoration:none\" target=\"_blank\"><strong><span style=\"color:" + Colors.SPONSORED + "\">getstream.io</span></strong></a></div>\n" +
             "</div>\n"
     return html
