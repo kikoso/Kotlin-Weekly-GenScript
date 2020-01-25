@@ -162,13 +162,13 @@ fun createAnnouncements(articles: List<Item>): String {
             "    width:30%;\n" +
             "\n" +
             "    float:left\">\n" +
-            "<p style=\"text-align: center;\"><img data-file-id=\"2573165\" height=\"65\" src=\"https://gallery.mailchimp.com/f39692e245b94f7fb693b6d82/images/b61142be-473c-436a-84ad-8338e13e31da.png\" style=\"border: 0px  ; width: 65px; height: 65px; margin: 0px;\" width=\"65\" /><br />\n" +
+            "<p style=\"text-align: center;\"><img data-file-id=\"2573165\" height=\"45\" src=\"https://gallery.mailchimp.com/f39692e245b94f7fb693b6d82/images/b61142be-473c-436a-84ad-8338e13e31da.png\" style=\"border: 0px  ; width: 45px; height: 45px; margin: 0px;\" width=\"45\" /><br />\n" +
             "<strong><span style=\"font-size:11px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><span style=\"color:#FFFFFF\"><span style=\"background-color:#7874b4; padding:5px 5px 5px 5px\">Announcements</span></span></span></span></strong></p>\n" +
             "</div>\n"
     html += "<div style=\"  \n" +
             "    width:70%;\n" +
             "    float:left;\n" +
-            "    \"><br />\n"
+            "    \">\n"
 
     for (article in articles) {
         html += "<a href=\"" + article.getLinkingUrl() + "\" style=\"text-decoration:none\" target=\"_blank\"><span style=\"font-size:16px\"><span style=\"font-family:helvetica neue,helvetica,arial,verdana,sans-serif\"><strong><span style=\"color:#7874b4\">" + article.title + "</span></strong></span></span></a><br />\n" +
