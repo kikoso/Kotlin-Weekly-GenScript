@@ -2,7 +2,7 @@ number: 182
 date: 26th of January 2020
 title: Hello Kotliners, and Happy Lunar New Year to all of you celebrating. Each week we receive more articles from the community, and the task of selecting becomes harder. Here there is our upcoming weekly issue, enjoy it.
 announcements:
-  - {title: "Kotlin Census 2019: Call for Respondents", description: "The new edition of Kotlin Census is here. JetBrains is asking for our feedback, so this is a unique opportunity to influence the development of Kotlin.", link: "https://blog.jetbrains.com/kotlin/"}
+  - {title: "Kotlin Census 2019: Call for Respondents", description: "The new edition of Kotlin Census is here. JetBrains is asking for our feedback, so this is a unique opportunity to influence the development of Kotlin.", link: "https://blog.jetbrains.com/kotlin/2020/01/kotlin-census-2019-call-for-respondents/"}
   - {title: "Kotlin Multiplatform survey", description: "Have you tried Kotlin Multiplatform for your mobile app? JetBrains would love to hear from your application and use case. If you are interested, reply to this Tweet.", link: "https://twitter.com/kotlin/status/1219575319327334400"}
 articles:
   - {title: "Zero-cost* abstractions in Kotlin", description: "Next article by Florina Muntenescu in the series of Kotlin vocabulary, where she approaches this time inline classes and how to use them as wrappers without any performance costs.", link: "https://medium.com/androiddevelopers/zero-cost-abstractions-in-kotlin-19b953f3a936"}
