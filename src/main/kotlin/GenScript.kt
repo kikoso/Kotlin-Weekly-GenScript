@@ -153,7 +153,7 @@ fun createHeader(number: String, date: String): String {
 }
 
 fun createTitle(title: String): String {
-    return "<p><span style=\"font-size:14px\"><span style=\"font-family:helvetica neue\">$title</span></span></p></br>\n"
+    return "<p><span style=\"font-size:16px\"><span style=\"font-family:helvetica neue\">$title</span></span></p></br>\n"
 }
 
 fun createAnnouncements(articles: List<Item>): String {
